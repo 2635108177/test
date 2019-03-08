@@ -1,7 +1,7 @@
 #include <stdio.h>
-#include "add.h"
+#include "hello.h"
 int main(int argc, const char *argv[])
 {
-	printf("a + b = %d\n",add(10,20));	
+	print_hello();
 	return 0;
 }
