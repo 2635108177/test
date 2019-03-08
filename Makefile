@@ -1,6 +1,6 @@
 CC=gcc
-main:main.o add.o
+main:main.o math.o
 	$(CC) -o $@ $^
 .PHONY:clean
 clean:
-	$(RM) main.o add.o main
+	$(RM) main.o math.o main
